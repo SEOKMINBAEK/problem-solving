@@ -7,6 +7,6 @@ sum = 0
 
 for i, c in enumerate(string):
   n = ord(c) - (ord('a') - 1)
-  sum += (n * (r ** i))
+  sum += n * (r ** i)
 
-print(sum)
+print(sum % m)
